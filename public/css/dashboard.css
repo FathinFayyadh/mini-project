@@ -1,0 +1,51 @@
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 20%;
+}
+
+.navbar-custom {
+    position: fixed;
+    width: 77%;
+    left: 20%;
+    z-index: 1;
+}
+
+.main-content {
+    margin-left: 23%;
+    margin-top: 8%;
+}
+.content-scrollable {
+    height: calc(100vh - 56px);
+}
+
+.fixed-follow {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 35%;
+    height: calc(100vh - 56px);
+}
+.main-content-comment {
+    margin-left: 22%;
+    margin-top: 8%;
+}
+.main-content-profile {
+    margin-left:20%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+/* post */
+.card {
+    color: white;
+    margin: 45px 240px auto;
+}
+
+body{
+    background-color: #000000;
+}
